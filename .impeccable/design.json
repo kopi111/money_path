@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-19T18:34:57+00:00",
+  "title": "Design System: Money Path",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(99.0% 0.003 128.5)",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252524",
+          "#424341",
+          "#616260",
+          "#838382",
+          "#A5A6A5",
+          "#CACBC9",
+          "#EEEFED"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Feint Rule",
+        "canonical": "oklch(87.1% 0.033 256.8)",
+        "tonalRamp": [
+          "#030B19",
+          "#1B2635",
+          "#374354",
+          "#566375",
+          "#778498",
+          "#99A7BB",
+          "#BDCCE1",
+          "#E5EFFE"
+        ]
+      },
+      "margin-red": {
+        "role": "secondary",
+        "displayName": "Margin Red",
+        "canonical": "oklch(60.3% 0.183 28.8)",
+        "tonalRamp": [
+          "#1F0000",
+          "#4C0302",
+          "#7F0907",
+          "#B31F18",
+          "#DB4A3D",
+          "#FD7868",
+          "#FDB6AB",
+          "#FFE9E5"
+        ]
+      },
+      "ballpoint-ink": {
+        "role": "primary",
+        "displayName": "Ballpoint Navy",
+        "canonical": "oklch(28.6% 0.102 267.9)",
+        "tonalRamp": [
+          "#020133",
+          "#111E56",
+          "#2B3E78",
+          "#495E9C",
+          "#6980C1",
+          "#8AA4E7",
+          "#B5CAFD",
+          "#E8EEFF"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(44.8% 0.061 269.7)",
+        "tonalRamp": [
+          "#040724",
+          "#1A2343",
+          "#354163",
+          "#546085",
+          "#7482A9",
+          "#97A5CE",
+          "#BAC9F4",
+          "#E8EEFF"
+        ]
+      },
+      "label-plate": {
+        "role": "neutral",
+        "displayName": "Label Plate",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#626262",
+          "#838383",
+          "#A6A6A6",
+          "#CACACA",
+          "#EEEEEE"
+        ]
+      },
+      "cover-blue": {
+        "role": "tertiary",
+        "displayName": "Cover Blue",
+        "canonical": "oklch(45.9% 0.171 262.3)",
+        "tonalRamp": [
+          "#00062A",
+          "#001C61",
+          "#05369B",
+          "#275AC1",
+          "#487EE8",
+          "#76A5FD",
+          "#AFCBFF",
+          "#E6EFFF"
+        ]
+      },
+      "cover-purple": {
+        "role": "tertiary",
+        "displayName": "Cover Purple",
+        "canonical": "oklch(46.6% 0.169 299.9)",
+        "tonalRamp": [
+          "#110026",
+          "#32035C",
+          "#531E8C",
+          "#7243B2",
+          "#9466D8",
+          "#B68CFB",
+          "#D3BEFE",
+          "#F1EBFE"
+        ]
+      },
+      "cover-teal": {
+        "role": "tertiary",
+        "displayName": "Cover Teal",
+        "canonical": "oklch(49.4% 0.081 208.5)",
+        "tonalRamp": [
+          "#000E11",
+          "#022B31",
+          "#064B54",
+          "#106E7A",
+          "#3E919D",
+          "#63B5C1",
+          "#88DAE7",
+          "#CDF7FE"
+        ]
+      },
+      "cover-plum": {
+        "role": "tertiary",
+        "displayName": "Cover Plum",
+        "canonical": "oklch(45.5% 0.146 343.4)",
+        "tonalRamp": [
+          "#1B0012",
+          "#460033",
+          "#721256",
+          "#973877",
+          "#BD5B99",
+          "#E47EBD",
+          "#FFADDD",
+          "#FFE7F4"
+        ]
+      },
+      "cover-indigo": {
+        "role": "tertiary",
+        "displayName": "Cover Indigo",
+        "canonical": "oklch(44.3% 0.134 272.0)",
+        "tonalRamp": [
+          "#040131",
+          "#141564",
+          "#2C3888",
+          "#4859AD",
+          "#687CD3",
+          "#89A0FA",
+          "#B9C8FD",
+          "#E9EEFF"
+        ]
+      },
+      "cover-slate": {
+        "role": "tertiary",
+        "displayName": "Cover Slate",
+        "canonical": "oklch(45.4% 0.030 228.6)",
+        "tonalRamp": [
+          "#000D15",
+          "#152831",
+          "#31464F",
+          "#506670",
+          "#718792",
+          "#93AAB5",
+          "#B7CFDA",
+          "#DBF3FF"
+        ]
+      },
+      "status-ahead": {
+        "role": "status",
+        "displayName": "Ahead Green",
+        "canonical": "oklch(48.2% 0.113 153.7)",
+        "tonalRamp": [
+          "#001004",
+          "#002E15",
+          "#005129",
+          "#1D7442",
+          "#459763",
+          "#6ABB85",
+          "#8EE0A8",
+          "#C6FFD6"
+        ]
+      },
+      "status-slipping": {
+        "role": "status",
+        "displayName": "Slipping Amber",
+        "canonical": "oklch(51.6% 0.111 71.1)",
+        "tonalRamp": [
+          "#140800",
+          "#362000",
+          "#5D3A00",
+          "#875603",
+          "#AC772D",
+          "#D29A52",
+          "#F8BE77",
+          "#FEEBD5"
+        ]
+      },
+      "status-behind": {
+        "role": "status",
+        "displayName": "Behind Red",
+        "canonical": "oklch(50.1% 0.178 28.7)",
+        "tonalRamp": [
+          "#1F0000",
+          "#4D0101",
+          "#810404",
+          "#B1231C",
+          "#D94D40",
+          "#FE7666",
+          "#FEB5AA",
+          "#FEE9E5"
+        ]
+      },
+      "night-paper": {
+        "role": "neutral",
+        "displayName": "Night Paper",
+        "canonical": "oklch(20.8% 0.039 267.6)",
+        "tonalRamp": [
+          "#050A1C",
+          "#1D2439",
+          "#394258",
+          "#586179",
+          "#79839C",
+          "#9BA6C0",
+          "#BFCAE5",
+          "#E7EEFF"
+        ]
+      },
+      "night-rule": {
+        "role": "neutral",
+        "displayName": "Night Feint Rule",
+        "canonical": "oklch(38.9% 0.069 267.2)",
+        "tonalRamp": [
+          "#020628",
+          "#162347",
+          "#324167",
+          "#50618A",
+          "#7182AE",
+          "#93A5D3",
+          "#B6CAF9",
+          "#E8EEFE"
+        ]
+      },
+      "night-margin-red": {
+        "role": "secondary",
+        "displayName": "Night Margin Red",
+        "canonical": "oklch(66.0% 0.152 27.7)",
+        "tonalRamp": [
+          "#1F0000",
+          "#4D0103",
+          "#800408",
+          "#A7342C",
+          "#CF584D",
+          "#F77C6F",
+          "#FEB5AB",
+          "#FEE9E6"
+        ]
+      },
+      "night-ink": {
+        "role": "primary",
+        "displayName": "Night Ink",
+        "canonical": "oklch(94.6% 0.015 270.0)",
+        "tonalRamp": [
+          "#090B12",
+          "#22252D",
+          "#3F424B",
+          "#5E626B",
+          "#7F838D",
+          "#A2A6B0",
+          "#C6CAD5",
+          "#EAEEF9"
+        ]
+      },
+      "night-ink-soft": {
+        "role": "neutral",
+        "displayName": "Night Soft Ink",
+        "canonical": "oklch(78.0% 0.037 269.8)",
+        "tonalRamp": [
+          "#060A1B",
+          "#1E2437",
+          "#3A4256",
+          "#596177",
+          "#7A839A",
+          "#9DA6BE",
+          "#C1CAE3",
+          "#E8EEFF"
+        ]
+      },
+      "night-label-plate": {
+        "role": "neutral",
+        "displayName": "Night Label Plate",
+        "canonical": "oklch(26.6% 0.054 267.8)",
+        "tonalRamp": [
+          "#030822",
+          "#1A2440",
+          "#364160",
+          "#546181",
+          "#7583A5",
+          "#97A6C9",
+          "#BBCAEF",
+          "#E8EEFE"
+        ]
+      },
+      "night-cover-blue": {
+        "role": "tertiary",
+        "displayName": "Night Cover Blue",
+        "canonical": "oklch(52.8% 0.178 262.7)",
+        "tonalRamp": [
+          "#00062B",
+          "#001B63",
+          "#04349F",
+          "#2659C5",
+          "#467DEC",
+          "#77A4FC",
+          "#B0CBFF",
+          "#E6EFFE"
+        ]
+      },
+      "night-cover-purple": {
+        "role": "tertiary",
+        "displayName": "Night Cover Purple",
+        "canonical": "oklch(52.9% 0.170 300.4)",
+        "tonalRamp": [
+          "#120026",
+          "#32025C",
+          "#531D8C",
+          "#7342B2",
+          "#9566D8",
+          "#B78CFB",
+          "#D4BDFE",
+          "#F1EBFE"
+        ]
+      },
+      "night-cover-teal": {
+        "role": "tertiary",
+        "displayName": "Night Cover Teal",
+        "canonical": "oklch(50.5% 0.083 210.6)",
+        "tonalRamp": [
+          "#000E11",
+          "#022B31",
+          "#054B55",
+          "#0D6E7C",
+          "#3D919F",
+          "#63B4C3",
+          "#88DAE9",
+          "#CFF7FF"
+        ]
+      },
+      "night-cover-plum": {
+        "role": "tertiary",
+        "displayName": "Night Cover Plum",
+        "canonical": "oklch(50.4% 0.149 341.8)",
+        "tonalRamp": [
+          "#1B0013",
+          "#450334",
+          "#721058",
+          "#973779",
+          "#BD5A9C",
+          "#E47EC0",
+          "#FFACE0",
+          "#FFE7F5"
+        ]
+      },
+      "night-cover-indigo": {
+        "role": "tertiary",
+        "displayName": "Night Cover Indigo",
+        "canonical": "oklch(50.5% 0.143 272.3)",
+        "tonalRamp": [
+          "#040032",
+          "#141169",
+          "#2B368D",
+          "#4758B2",
+          "#677BD8",
+          "#899FFB",
+          "#B9C8FE",
+          "#E9EEFE"
+        ]
+      },
+      "night-cover-slate": {
+        "role": "tertiary",
+        "displayName": "Night Cover Slate",
+        "canonical": "oklch(49.7% 0.028 227.0)",
+        "tonalRamp": [
+          "#000D14",
+          "#162830",
+          "#33464E",
+          "#51656E",
+          "#728790",
+          "#95AAB4",
+          "#B8CFD9",
+          "#DCF3FD"
+        ]
+      },
+      "night-status-ahead": {
+        "role": "status",
+        "displayName": "Night Ahead Green",
+        "canonical": "oklch(79.9% 0.128 157.1)",
+        "tonalRamp": [
+          "#000F06",
+          "#002E18",
+          "#01502E",
+          "#067546",
+          "#2C9A63",
+          "#56BE85",
+          "#7DE4A9",
+          "#C4FFDA"
+        ]
+      },
+      "night-status-slipping": {
+        "role": "status",
+        "displayName": "Night Slipping Amber",
+        "canonical": "oklch(83.7% 0.132 84.1)",
+        "tonalRamp": [
+          "#110A00",
+          "#312302",
+          "#553E05",
+          "#7C5C0D",
+          "#A57C16",
+          "#CD9E32",
+          "#F3C35C",
+          "#FEECC9"
+        ]
+      },
+      "night-status-behind": {
+        "role": "status",
+        "displayName": "Night Behind Red",
+        "canonical": "oklch(76.7% 0.138 28.7)",
+        "tonalRamp": [
+          "#1F0000",
+          "#4D0101",
+          "#7C150F",
+          "#A23B31",
+          "#C85E52",
+          "#F08273",
+          "#FEB5AA",
+          "#FEE9E5"
+        ]
+      },
+      "on-cover": {
+        "role": "neutral",
+        "displayName": "On Cover White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#626262",
+          "#838383",
+          "#A6A6A6",
+          "#CACACA",
+          "#EEEEEE"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero amounts only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Large amounts in totals; keypad digits at 22px."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "App bar titles, section headings, goal names on plates."
+      },
+      "title-small": {
+        "displayName": "Title Small",
+        "purpose": "Status lines and cover sub-lines."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Ledger row titles and page text."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Row subtitles."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons and chips."
+      },
+      "amount-hero": {
+        "displayName": "Amount: hero",
+        "purpose": "The one figure a screen is about."
+      },
+      "amount-large": {
+        "displayName": "Amount: large",
+        "purpose": "Totals."
+      },
+      "amount-row": {
+        "displayName": "Amount: row",
+        "purpose": "Ledger sum column."
+      },
+      "amount-small": {
+        "displayName": "Amount: small",
+        "purpose": "Chart rows and secondary figures."
+      }
+    },
+    "shadows": [
+      {
+        "name": "fab",
+        "value": "Material 3 FAB default elevation",
+        "purpose": "Only the extended FAB and modal sheets lift; everything else is flat paper."
+      }
+    ],
+    "motion": [
+      {
+        "name": "material-default",
+        "value": "Flutter Material 3 defaults",
+        "purpose": "No custom motion; sheets, snackbars and ink ripples use framework defaults. Keypad presses give a selection-click haptic."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "rail",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Spend FAB",
+      "kind": "button",
+      "refersTo": "button-spend",
+      "description": "Extended FAB for keypad-first quick add; shown on Today and Month.",
+      "html": "<button class=\"ds-fab-spend\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z\"/></svg>Spend</button>",
+      "css": ".ds-fab-spend{font-family:'Atkinson Hyperlegible Next',sans-serif;display:inline-flex;align-items:center;gap:12px;height:56px;padding:0 20px 0 16px;border:none;border-radius:16px;background:#15245C;color:#FBFCFA;font-size:16px;font-weight:700;box-shadow:0 3px 6px rgba(0,0,0,.25);cursor:pointer;transition:background .2s}.ds-fab-spend:hover{background:#22347A}.ds-fab-spend:focus-visible{outline:3px solid #C7D6EB;outline-offset:2px}.ds-fab-spend:active{background:#0E1A46}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Full-width 56px filled ink button that commits a sheet or editor.",
+      "html": "<button class=\"ds-btn-primary\">Add income</button>",
+      "css": ".ds-btn-primary{font-family:'Atkinson Hyperlegible Next',sans-serif;width:100%;height:56px;border:none;border-radius:999px;background:#15245C;color:#FBFCFA;font-size:15px;font-weight:600;cursor:pointer;transition:background .2s}.ds-btn-primary:hover{background:#22347A}.ds-btn-primary:focus-visible{outline:3px solid #C7D6EB;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Outlined companion to a primary action, e.g. Take out.",
+      "html": "<button class=\"ds-btn-outline\">Take out</button>",
+      "css": ".ds-btn-outline{font-family:'Atkinson Hyperlegible Next',sans-serif;height:52px;padding:0 24px;border:1px solid #475377;border-radius:999px;background:transparent;color:#15245C;font-size:15px;font-weight:600;cursor:pointer}.ds-btn-outline:hover{background:rgba(199,214,235,.35)}.ds-btn-outline:focus-visible{outline:3px solid #C7D6EB;outline-offset:2px}"
+    },
+    {
+      "name": "Ledger Row",
+      "kind": "custom",
+      "refersTo": "ledger-row",
+      "description": "One line of the book on its own feint rule: date in the red margin, amount in the sum column.",
+      "html": "<div class=\"ds-page\"><div class=\"ds-row\"><div class=\"ds-row-margin\"><b>24</b><span>Sep</span></div><div class=\"ds-row-text\"><div class=\"ds-row-title\">JPS light bill</div><div class=\"ds-row-sub\">Due in 5 days</div></div><div class=\"ds-row-amount\">$9,800</div></div></div>",
+      "css": ".ds-page{font-family:'Atkinson Hyperlegible Next',sans-serif;background:#FBFCFA;color:#15245C;background-image:linear-gradient(90deg,transparent 56px,rgba(217,72,59,.85) 56px,rgba(217,72,59,.85) 57.25px,transparent 57.25px,transparent 59px,rgba(217,72,59,.85) 59px,rgba(217,72,59,.85) 60.25px,transparent 60.25px)}.ds-row{display:flex;align-items:center;min-height:64px;border-bottom:1px solid #C7D6EB;cursor:pointer}.ds-row:hover{background:rgba(199,214,235,.25)}.ds-row:focus-visible{outline:2px solid #15245C}.ds-row-margin{width:56px;display:flex;flex-direction:column;align-items:center;color:#D9483B}.ds-row-margin b{font-size:17px;font-weight:700}.ds-row-margin span{font-size:12px;font-weight:600}.ds-row-text{flex:1;margin-left:12px;padding:10px 0}.ds-row-title{font-size:17px;line-height:1.4}.ds-row-sub{font-size:13px;color:#475377}.ds-row-amount{margin:0 16px 0 12px;font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Total Row",
+      "kind": "custom",
+      "refersTo": "ledger-row",
+      "description": "Closes a summary under a short double ink rule.",
+      "html": "<div class=\"ds-total\"><span class=\"ds-total-label\">Left</span><span class=\"ds-total-sum\">$60,830</span></div>",
+      "css": ".ds-total{font-family:'Atkinson Hyperlegible Next',sans-serif;display:flex;justify-content:space-between;align-items:flex-end;padding:10px 16px 12px 68px;border-bottom:1px solid #15245C;background:#FBFCFA;color:#15245C}.ds-total-label{font-size:20px;font-weight:700}.ds-total-sum{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;padding-bottom:4px;border-bottom:4px double #15245C;min-width:120px;text-align:right}"
+    },
+    {
+      "name": "Goal Cover",
+      "kind": "card",
+      "refersTo": "goal-cover",
+      "description": "A goal as a solid exercise-book cover with the NAME / BY label plate, hero amount, outlined progress bar and status plate.",
+      "html": "<div class=\"ds-cover\"><div class=\"ds-plate\"><div class=\"ds-plate-line\"><small>NAME</small><strong>Christmas</strong></div><div class=\"ds-plate-line\"><small>BY</small><span>20 Dec 2026 · fortnightly</span></div></div><div class=\"ds-cover-amount\">$9,000</div><div class=\"ds-cover-sub\">saved of $50,000 · 18%</div><div class=\"ds-cover-bar\"><i style=\"width:18%\"></i></div><div class=\"ds-status\"><span class=\"ds-status-text\"><b>Slightly behind</b>  ·  $1,000 behind</span><span class=\"ds-status-rule\"></span></div></div>",
+      "css": ".ds-cover{font-family:'Atkinson Hyperlegible Next',sans-serif;background:#6A3AA8;color:#fff;border-radius:6px;padding:16px 16px 18px;cursor:pointer;transition:filter .2s}.ds-cover:hover{filter:brightness(1.06)}.ds-cover:focus-visible{outline:3px solid #15245C;outline-offset:2px}.ds-plate{background:#fff;color:#15245C;border-radius:10px;padding:10px 14px}.ds-plate-line{display:flex;align-items:baseline;gap:10px;padding-bottom:4px;border-bottom:1px solid #C7D6EB;margin-bottom:6px}.ds-plate-line small{font-size:12px;font-weight:600;letter-spacing:.8px;color:#475377}.ds-plate-line strong{font-size:20px}.ds-cover-amount{margin-top:18px;font-size:44px;font-weight:800;line-height:1.08;font-variant-numeric:tabular-nums}.ds-cover-sub{font-size:15px;font-weight:600}.ds-cover-bar{margin:12px 0 14px;height:10px;border:1.5px solid #fff;border-radius:2px;box-sizing:border-box}.ds-cover-bar i{display:block;height:100%;background:#fff}.ds-status{display:inline-block;background:#fff;border-radius:8px;padding:8px 12px 6px 10px;color:#8F5B00;font-size:15px;font-weight:600}.ds-status b{font-weight:800}.ds-status-rule{display:block;width:96px;height:0;margin-top:4px;border-top:2px dashed #8F5B00}"
+    },
+    {
+      "name": "Status Line",
+      "kind": "custom",
+      "refersTo": "status-plate",
+      "description": "Status as colour, icon plus word, and rule form: solid on track, dashed slightly behind, double behind.",
+      "html": "<div class=\"ds-st ds-st-ok\"><b>On track</b> · $200 ahead<i></i></div><div class=\"ds-st ds-st-slip\"><b>Slightly behind</b> · $1,000 behind<i></i></div><div class=\"ds-st ds-st-behind\"><b>Behind</b> · $14,153.90 behind<i></i></div>",
+      "css": ".ds-st{font-family:'Atkinson Hyperlegible Next',sans-serif;font-size:15px;font-weight:600;margin-bottom:12px}.ds-st b{font-weight:800}.ds-st i{display:block;width:96px;margin-top:4px}.ds-st-ok{color:#17703F}.ds-st-ok i{border-top:2px solid #17703F}.ds-st-slip{color:#8F5B00}.ds-st-slip i{border-top:2px dashed #8F5B00}.ds-st-behind{color:#B3261E}.ds-st-behind i{height:2px;border-top:2px solid #B3261E;border-bottom:2px solid #B3261E}"
+    },
+    {
+      "name": "Category Chip",
+      "kind": "chip",
+      "refersTo": "category-chip",
+      "description": "Quick-add category; tapping it saves the typed amount.",
+      "html": "<button class=\"ds-chip\">Groceries</button>",
+      "css": ".ds-chip{font-family:'Atkinson Hyperlegible Next',sans-serif;height:48px;padding:0 14px;border:1px solid #C7D6EB;border-radius:8px;background:#FBFCFA;color:#15245C;font-size:15px;font-weight:600;cursor:pointer}.ds-chip:hover{background:rgba(199,214,235,.35)}.ds-chip:focus-visible{outline:2px solid #15245C}.ds-chip[aria-pressed=true]{background:#C7D6EB}"
+    },
+    {
+      "name": "Keypad Key",
+      "kind": "button",
+      "refersTo": "keypad-key",
+      "description": "Big one-handed money keypad key.",
+      "html": "<button class=\"ds-key\">7</button>",
+      "css": ".ds-key{font-family:'Atkinson Hyperlegible Next',sans-serif;width:96px;height:56px;border:none;border-radius:8px;background:rgba(199,214,235,.35);color:#15245C;font-size:22px;font-weight:600;cursor:pointer}.ds-key:hover{background:rgba(199,214,235,.6)}.ds-key:active{background:#C7D6EB}.ds-key:focus-visible{outline:2px solid #15245C}"
+    },
+    {
+      "name": "Amount Field",
+      "kind": "input",
+      "refersTo": "keypad-key",
+      "description": "Underline-only entry: soft-ink underline at rest, 2px ink on focus.",
+      "html": "<label class=\"ds-field\"><span>Amount</span><input value=\"$185,000\"></label>",
+      "css": ".ds-field{font-family:'Atkinson Hyperlegible Next',sans-serif;display:block;color:#475377;font-size:13px}.ds-field input{display:block;width:100%;border:none;border-bottom:1px solid #475377;background:transparent;color:#15245C;font:inherit;font-size:17px;padding:6px 0;font-variant-numeric:tabular-nums}.ds-field input:focus-visible{outline:none;border-bottom:2px solid #15245C}"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "ledger-row",
+      "description": "Four-tab bottom bar tinted with the feint rule; rail at 600px and wider.",
+      "html": "<nav class=\"ds-nav\"><a class=\"on\">Today</a><a>Goals</a><a>Month</a><a>Reports</a></nav>",
+      "css": ".ds-nav{font-family:'Atkinson Hyperlegible Next',sans-serif;display:flex;justify-content:space-around;padding:12px 0;background:#EBF0F6}.ds-nav a{padding:4px 18px;border-radius:16px;color:#15245C;font-size:13px;font-weight:600;cursor:pointer}.ds-nav a.on{background:#C7D6EB}.ds-nav a:hover{background:rgba(199,214,235,.6)}.ds-nav a:focus-visible{outline:2px solid #15245C}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Exercise Book",
+    "overview": "**Creative North Star: \"The Exercise Book\"**\n\nMoney kept the way a Jamaican household always kept it: on paper, in a school exercise book. Every screen is a page with a red double margin rule down the left, dates written in that margin, words written to the right of it, and sums lined up in the right-hand column. Goals are the books themselves: solid card covers in blue, purple, teal, plum, indigo or slate, each with a white label plate filled in NAME and BY. Ink is ballpoint navy on off-white paper. There is no chrome to speak of; structure comes from rules, not boxes.\n\nThe system deliberately refuses the finance-app default of tonal Material cards, a donut chart and wallpaper-driven dynamic colour. Material 3 supplies behaviour (navigation bar, sheets, chips, buttons, snackbars); the Exercise Book supplies every colour role, the type scale and the shapes. Density is generous and one-handed: rows are at least 64px tall, primary actions are 56px tall, and the quick-add keypad sits at the bottom of the screen.\n\nThe night book is the same book with the lights off: a deep navy page, pale ink, and label plates that turn dark rather than staying white, because the night status colours are tuned light for a dark ground and would fail on white.",
+    "keyCharacteristics": [
+      "Red double margin rule at 56px on every ruled page; margin holds dates, the writing starts at 68px.",
+      "Each ledger line sits on its own feint blue rule, amount right-aligned in the sum column.",
+      "Totals close under a short double ink rule.",
+      "Goal = solid exercise-book cover + white NAME / BY label plate; cover hue never carries status.",
+      "Status says itself three ways: colour, icon plus word, and rule form (solid, dashed, double).",
+      "One typeface, Atkinson Hyperlegible Next, with tabular figures on every amount.",
+      "One extended FAB, \"Spend\", opens keypad-first quick add."
+    ],
+    "rules": [
+      {
+        "name": "The Covers Are Not Signals Rule",
+        "body": "Cover hues avoid green, amber and red entirely. Status colour appears only on the status line, a limit warning or an amount, never as a cover.",
+        "section": "colors"
+      },
+      {
+        "name": "The Night Plate Rule",
+        "body": "In the night book the label and status plates are `night-label-plate`, not white. Light-tuned status colours on a white plate would lose contrast.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Red Line Rule",
+        "body": "Margin red belongs to the margin. Anything that is actually wrong uses status-behind.",
+        "section": "colors"
+      },
+      {
+        "name": "The Four Sums Rule",
+        "body": "Every amount prints at one of four sizes: hero (44/800), large (26/700), row (17/700), small (15/600). Pick by the job the figure does, never by the space available; a figure that does not fit shrinks to fit its column rather than wrapping or picking a new size.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Every amount and every display-size figure uses tabular figures so columns of money line up.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled, Not Raised Rule",
+        "body": "Separate things with a rule (feint for rows, ink for totals, margin red for the margin), never with a shadow or a tonal card.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put every page's content inside the ruled page, starting at the 68px writing inset with dates in the 56px margin.",
+      "**Do** end every ledger line on its own feint rule and put its amount in the right-hand sum column.",
+      "**Do** close totals under the double ink rule.",
+      "**Do** say status three ways at once: status colour, icon plus word, and rule form (solid, dashed, double).",
+      "**Do** size money only from the four-step amount ramp (hero, large, row, small) with tabular figures, and let a figure shrink to fit rather than wrap.",
+      "**Do** give each goal a cover from the six cover hues, chosen stably from its id, with a NAME / BY label plate.",
+      "**Do** use dark label and status plates in the night book.",
+      "**Do** keep quick add keypad-first: type the amount, tap a category, saved."
+    ],
+    "donts": [
+      "**Don't** use tonal Material cards, surface tint or shadows to group content; use rules.",
+      "**Don't** draw a donut or pie chart; spending is horizontal bars with their own labels.",
+      "**Don't** turn on dynamic (wallpaper) colour; the palette is fixed.",
+      "**Don't** colour a goal cover green, amber or red, or use a cover hue to signal status.",
+      "**Don't** use margin red for errors or warnings.",
+      "**Don't** show status by colour alone.",
+      "**Don't** introduce a second typeface or a mono face for numbers."
+    ]
+  }
+}

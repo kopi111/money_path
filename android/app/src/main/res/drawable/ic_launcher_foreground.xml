@@ -1,0 +1,8 @@
+<!-- An exercise-book cover: white label plate with ruled lines and the red margin rule. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF" android:pathData="M32,38h44a4,4 0,0 1,4 4v24a4,4 0,0 1,-4 4h-44a4,4 0,0 1,-4 -4v-24a4,4 0,0 1,4 -4z"/>
+    <path android:fillColor="#D9483B" android:pathData="M38,40h1.5v28h-1.5z"/>
+    <path android:fillColor="#C7D6EB" android:pathData="M42,48h32v1.5h-32zM42,56h32v1.5h-32zM42,64h32v1.5h-32z"/>
+    <path android:fillColor="#15245C" android:pathData="M44,45.5h18v2.5h-18zM44,53.5h24v2.5h-24z"/>
+</vector>
